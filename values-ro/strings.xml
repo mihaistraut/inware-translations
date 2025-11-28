@@ -71,7 +71,7 @@
     <string name="device_brand_headline">Marcă</string>
     <string name="device_manufacturer_headline">Producător</string>
     <string name="device_model_headline">Model</string>
-    <string name="device_model_tile_title">Device model</string>
+    <string name="device_model_tile_title">Model dispozitiv</string>
     <string name="device_product_name_headline">Produs</string>
     <string name="device_sku_headline">SKU</string>
     <string name="device_display_id_category">Afișajul #<xliff:g example="1" id="id">%d</xliff:g></string>
@@ -100,14 +100,14 @@
     <string name="hardware_cores_headline">Nuclee</string>
     <string name="hardware_clusters_headline">Clustere</string>
     <string name="hardware_cpu_usage_headline">Utilizare</string>
-    <string name="hardware_cluster_category">Clusterul #<xliff:g example="1" id="number_of_cluster">%d</xliff:g></string>
+    <string name="hardware_cluster_category">Clusterul #<xliff:g example="1" id="cluster_number">%d</xliff:g></string>
     <string name="hardware_cluster_minimum_frequency_headline">Frecvență minimă</string>
     <string name="hardware_cluster_maximum_frequency_headline">Frecvență maximă</string>
     <string name="hardware_cluster_governor_headline">Governor</string>
     <string name="hardware_cpu_usage_category">Utilizare CPU</string>
-    <string name="hardware_core_headline">Nucleul <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
+    <string name="hardware_core_headline">Nucleul <xliff:g example="1" id="core_number">%d</xliff:g></string>
     <string name="hardware_core_offline">Offline</string>
-    <string name="hardware_core_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
+    <string name="hardware_core_frequency"><xliff:g example="1800" id="frequency">%d</xliff:g> MHz</string>
     <string name="hardware_gpu_category">GPU</string>
     <string name="hardware_gpu_vendor_headline">Furnizor</string>
     <string name="hardware_gpu_renderer_headline">Randor</string>
@@ -118,13 +118,13 @@
     <string name="hardware_gpu_usage_headline">Utilizare</string>
 
     <!-- Memory page -->
-    <string name="memory_ram_category">Memorie dispozitiv (RAM)</string>
+    <string name="memory_ram_category">RAM</string>
     <string name="memory_ram_hardware_headline">Hardware</string>
     <string name="memory_ram_total_headline">Total</string>
-    <string name="memory_ram_available_headline">Disponibile</string>
+    <string name="memory_ram_available_headline">Disponibil</string>
     <string name="memory_ram_used_headline">Utilizat</string>
     <string name="memory_ram_usage_headline">Utilizare</string>
-    <string name="memory_ram_tile_title">Memory Usage</string>
+    <string name="memory_ram_tile_title">Utilizare memorie</string>
     <string name="memory_storage_category">Stocare internă</string>
     <string name="memory_storage_hardware_headline">Hardware</string>
     <string name="memory_storage_total_headline">Total</string>
@@ -146,9 +146,9 @@
     <string name="camera_flash_headline">Lanternă</string>
 
     <!-- Network page -->
-    <string name="network_wifi_category">Wi-Fi</string>
+    <string name="network_wifi_category">Wi‑Fi</string>
     <string name="network_type_headline">Tip de rețea</string>
-    <string name="network_type_cellular">Cellular</string>
+    <string name="network_type_cellular">Celulară</string>
     <string name="network_download_speed_headline">Viteză de descărcare</string>
     <string name="network_upload_speed_headline">Viteză de încărcare</string>
     <string name="network_ssid_headline">SSID</string>
@@ -250,8 +250,8 @@
     <string name="settings_appearance_dark_mode_follow_system">Urmați sistemul</string>
     <string name="settings_appearance_dynamic_colors_headline">Utilizați culorile sistemului</string>
     <string name="settings_appearance_dynamic_colors_description">Utilizați culorile furnizate de către sistem</string>
-    <string name="settings_appearance_pure_black_headline">Use pure black in dark mode</string>
-    <string name="settings_appearance_pure_black_description">Replace the dark mode background with pure black</string>
+    <string name="settings_appearance_pure_black_headline">Utilizați negru intens în modul întunecat</string>
+    <string name="settings_appearance_pure_black_description">Înlocuiți fundalul modului întunecat cu unul negru intens</string>
 
     <!-- Advanced Settings -->
     <string name="settings_advanced_optional_modules_category">Module opționale</string>
@@ -266,19 +266,19 @@
     <!-- About Settings -->
     <string name="settings_about_privacy_policy_headline">Politica de confidențialitate</string>
     <string name="settings_about_licenses_headline">Licențe</string>
-    <string name="settings_about_button_channel">Channel</string>
-    <string name="settings_about_button_group">Group</string>
+    <string name="settings_about_button_channel">Canal</string>
+    <string name="settings_about_button_group">Grup</string>
     <string name="settings_about_button_github">GitHub</string>
     <string name="settings_about_button_twitter">Twitter</string>
     <string name="settings_about_button_website">Website</string>
     <string name="settings_about_button_email">Email</string>
     <string name="settings_about_thanks_to_category">Mulțumiri</string>
-    <string name="settings_about_translate_title">Help translate Inware</string>
-    <string name="settings_about_translate_summary">Join the community project to localize new features.</string>
-    <string name="settings_about_translate_action">Open project</string>
-    <string name="settings_developer_options_warning_title">Enable developer options?</string>
-    <string name="settings_developer_options_warning_message">Developer options contain advanced settings that may affect app stability and performance.\n\nEnable only if you understand the potential risks.</string>
-    <string name="settings_developer_options_warning_proceed">Proceed</string>
+    <string name="settings_about_translate_title">Ajutați la traducerea Inware</string>
+    <string name="settings_about_translate_summary">Alăturați-vă proiectului colaborativ pentru a ajuta la traducerea noilor funcționalități.</string>
+    <string name="settings_about_translate_action">Deschideți proiectul</string>
+    <string name="settings_developer_options_warning_title">Activați opțiunile pentru dezvoltatori?</string>
+    <string name="settings_developer_options_warning_message">Opțiunile pentru dezvoltatori conțin setări avansate ce pot afecta stabilitatea și performanța aplicațiilor.\n\nActivați doar dacă înțelegeți riscurile.</string>
+    <string name="settings_developer_options_warning_proceed">Continuați</string>
 
     <!--
     Legacy strings without new equivalents.
