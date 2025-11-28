@@ -252,7 +252,8 @@
     <string name="settings_appearance_dynamic_colors_description">Utilizați culorile furnizate de către sistem</string>
     <string name="settings_appearance_pure_black_headline">Utilizați negru intens în modul întunecat</string>
     <string name="settings_appearance_pure_black_description">Înlocuiți fundalul modului întunecat cu unul negru intens</string>
-
+    <string name="settings_appearance_system_fonts_headline">Utilizați fonturile sistemului</string>
+    <string name="settings_appearance_system_fonts_description">Utilizați fonturile furnizate de către dispozitivul dvs.</string>
     <!-- Advanced Settings -->
     <string name="settings_advanced_optional_modules_category">Module opționale</string>
     <string name="settings_advanced_analytics_category">Date analitice</string>
