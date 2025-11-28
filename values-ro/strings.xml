@@ -10,20 +10,20 @@
     <string name="generic_not_detected">Nedetectat(ă)</string>
     <string name="generic_allow">Permiteți</string>
     <string name="generic_copied_to_clipboard">Copiat în clipboard</string>
-    <string name="generic_kb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> KB/s</string>
-    <string name="generic_mb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
-    <string name="generic_gb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
-    <string name="generic_tb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
+    <string name="generic_kb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> KB/s</string>
+    <string name="generic_mb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> MB/s</string>
+    <string name="generic_gb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> GB/s</string>
+    <string name="generic_tb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> TB/s</string>
 
     <!-- Permissions -->
     <string name="permission_required_heading">Permisiune necesară</string>
-    <string name="permission_open_settings_label">Enable in settings</string>
+    <string name="permission_open_settings_label">Activați în setări</string>
 
     <!-- Drawer items & page titles -->
-    <string name="dashboard_page">Dashboard</string>
+    <string name="dashboard_page">Tablou de bord</string>
     <string name="dashboard_tiles_empty">No dashboard tiles available yet.</string>
     <string name="dashboard_empty_hint">Add your first tile to customize your dashboard</string>
-    <string name="explore_page">Explore</string>
+    <string name="explore_page">Explorați</string>
     <string name="system_page">Sistem</string>
     <string name="device_page">Dispozitiv</string>
     <string name="hardware_page">Hardware</string>
@@ -80,10 +80,10 @@
     <string name="device_display_size_headline">Mărime</string>
     <string name="device_display_aspect_ratio_headline">Raport de aspect</string>
     <string name="device_display_refresh_rate_headline">Rată de cadre</string>
-    <string name="device_display_pixel_density_headline">Densitate</string>
-    <string name="device_display_current_density_headline">Current density</string>
-    <string name="device_display_default_density_headline">Default density</string>
-    <string name="device_display_default_orientation_headline">Orientare implicită</string>
+    <string name="device_display_pixel_density_headline">Densitate pixeli</string>
+    <string name="device_display_current_density_headline">Densitate actuală</string>
+    <string name="device_display_default_density_headline">Densitate prestabilită</string>
+    <string name="device_display_default_orientation_headline">Orientare prestabilită</string>
     <string name="device_display_default_orientation_portrait">Portret</string>
     <string name="device_display_default_orientation_landscape">Peisaj</string>
     <string name="device_display_supports_hdr_headline">HDR</string>
