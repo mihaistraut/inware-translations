@@ -13,10 +13,18 @@
     <string name="generic_allow">Επιτρέπεται</string>
     <string name="generic_deny">Deny</string>
     <string name="generic_copied_to_clipboard">Αντιγράφηκε στο πρόχειρο</string>
+    <string name="generic_iec_bytes"><xliff:g id="size" example="36">%s</xliff:g> B</string>
+    <string name="generic_iec_kilobytes"><xliff:g id="size" example="36">%s</xliff:g> KB</string>
+    <string name="generic_iec_megabytes"><xliff:g id="size" example="36">%s</xliff:g> MB</string>
+    <string name="generic_iec_gigabytes"><xliff:g id="size" example="36">%s</xliff:g> GB</string>
+    <string name="generic_iec_terabytes"><xliff:g id="size" example="36">%s</xliff:g> TB</string>
+    <string name="generic_iec_petabytes"><xliff:g id="size" example="36">%s</xliff:g> PB</string>
+    <string name="generic_bytes_per_second"><xliff:g id="speed" example="36">%s</xliff:g> B/s</string>
     <string name="generic_kb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> KB/δλ</string>
     <string name="generic_mb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> MB/δλ</string>
     <string name="generic_gb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> GB/δλ</string>
     <string name="generic_tb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> TB/δλ</string>
+    <string name="generic_pb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> PB/s</string>
 
     <!-- Analytics consent -->
     <string name="analytics_consent_title">Allow analytics?</string>
@@ -95,6 +103,8 @@
     <string name="system_active_slot_headline">Ενεργή θέση</string>
     <string name="system_root_headline">Root</string>
     <string name="system_root_version_headline">ΈΚδοση root</string>
+    <string name="system_page_size_headline">Page size</string>
+    <string name="system_emulator_headline">Emulator</string>
 
     <!-- Device page -->
     <string name="device_brand_headline">Μάρκα</string>
@@ -139,6 +149,8 @@
     <string name="hardware_gpu_category">GPU</string>
     <string name="hardware_gpu_vendor_headline">Πάροχος</string>
     <string name="hardware_gpu_renderer_headline">Απεικονιστής</string>
+    <string name="hardware_gpu_gl_version_headline">OpenGL ES version</string>
+    <string name="hardware_gpu_vulkan_version_headline">Vulkan version</string>
     <string name="hardware_gpu_current_frequency_headline">Τρέχουσα συχνότητα</string>
     <string name="hardware_gpu_minimum_frequency_headline">Ελάχιστη συχνότητα</string>
     <string name="hardware_gpu_maximum_frequency_headline">Μέγιστη συχνότητα</string>
@@ -152,6 +164,7 @@
     <string name="memory_ram_available_headline">Διαθέσιμη</string>
     <string name="memory_ram_used_headline">Σε χρήση</string>
     <string name="memory_ram_usage_headline">Χρήση</string>
+    <string name="memory_ram_low_ram_headline">Low RAM</string>
     <string name="memory_storage_category">Εσωτερικός αποθηκευτικός χώρος</string>
     <string name="memory_storage_hardware_headline">Υλικό</string>
     <string name="memory_storage_total_headline">Σύνολο</string>

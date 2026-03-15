@@ -13,10 +13,18 @@
     <string name="generic_allow">允许</string>
     <string name="generic_deny">拒绝</string>
     <string name="generic_copied_to_clipboard">已复制到剪贴板</string>
+    <string name="generic_iec_bytes"><xliff:g id="size" example="36">%s</xliff:g> B</string>
+    <string name="generic_iec_kilobytes"><xliff:g id="size" example="36">%s</xliff:g> KB</string>
+    <string name="generic_iec_megabytes"><xliff:g id="size" example="36">%s</xliff:g> MB</string>
+    <string name="generic_iec_gigabytes"><xliff:g id="size" example="36">%s</xliff:g> GB</string>
+    <string name="generic_iec_terabytes"><xliff:g id="size" example="36">%s</xliff:g> TB</string>
+    <string name="generic_iec_petabytes"><xliff:g id="size" example="36">%s</xliff:g> PB</string>
+    <string name="generic_bytes_per_second"><xliff:g id="speed" example="36">%s</xliff:g> B/s</string>
     <string name="generic_kb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> KB/秒</string>
     <string name="generic_mb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> MB/秒</string>
     <string name="generic_gb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> GB/秒</string>
     <string name="generic_tb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> TB/秒</string>
+    <string name="generic_pb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> PB/s</string>
 
     <!-- Analytics consent -->
     <string name="analytics_consent_title">允许我们分析您的设备吗？</string>
@@ -95,6 +103,8 @@
     <string name="system_active_slot_headline">活动分区</string>
     <string name="system_root_headline">Root</string>
     <string name="system_root_version_headline">Root 版本</string>
+    <string name="system_page_size_headline">Page size</string>
+    <string name="system_emulator_headline">Emulator</string>
 
     <!-- Device page -->
     <string name="device_brand_headline">品牌</string>
@@ -139,6 +149,8 @@
     <string name="hardware_gpu_category">GPU</string>
     <string name="hardware_gpu_vendor_headline">供应商</string>
     <string name="hardware_gpu_renderer_headline">渲染器</string>
+    <string name="hardware_gpu_gl_version_headline">OpenGL ES version</string>
+    <string name="hardware_gpu_vulkan_version_headline">Vulkan version</string>
     <string name="hardware_gpu_current_frequency_headline">当前频率</string>
     <string name="hardware_gpu_minimum_frequency_headline">最低频率</string>
     <string name="hardware_gpu_maximum_frequency_headline">最高频率</string>
@@ -152,6 +164,7 @@
     <string name="memory_ram_available_headline">可用模块</string>
     <string name="memory_ram_used_headline">已用</string>
     <string name="memory_ram_usage_headline">用量</string>
+    <string name="memory_ram_low_ram_headline">Low RAM</string>
     <string name="memory_storage_category">内部存储</string>
     <string name="memory_storage_hardware_headline">硬件</string>
     <string name="memory_storage_total_headline">总计</string>

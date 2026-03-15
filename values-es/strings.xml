@@ -13,10 +13,18 @@
     <string name="generic_allow">Permitir</string>
     <string name="generic_deny">Denegar</string>
     <string name="generic_copied_to_clipboard">Copiado al portapapeles</string>
+    <string name="generic_iec_bytes"><xliff:g id="size" example="36">%s</xliff:g> B</string>
+    <string name="generic_iec_kilobytes"><xliff:g id="size" example="36">%s</xliff:g> KB</string>
+    <string name="generic_iec_megabytes"><xliff:g id="size" example="36">%s</xliff:g> MB</string>
+    <string name="generic_iec_gigabytes"><xliff:g id="size" example="36">%s</xliff:g> GB</string>
+    <string name="generic_iec_terabytes"><xliff:g id="size" example="36">%s</xliff:g> TB</string>
+    <string name="generic_iec_petabytes"><xliff:g id="size" example="36">%s</xliff:g> PB</string>
+    <string name="generic_bytes_per_second"><xliff:g id="speed" example="36">%s</xliff:g> B/s</string>
     <string name="generic_kb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> kB/s</string>
     <string name="generic_mb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> MB/s</string>
     <string name="generic_gb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> GB/s</string>
     <string name="generic_tb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> TB/s</string>
+    <string name="generic_pb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> PB/s</string>
 
     <!-- Analytics consent -->
     <string name="analytics_consent_title">¿Permitir datos de análisis?</string>
@@ -95,6 +103,8 @@
     <string name="system_active_slot_headline">Partición A/B activa</string>
     <string name="system_root_headline">Acceso root</string>
     <string name="system_root_version_headline">Versión de binarios root</string>
+    <string name="system_page_size_headline">Page size</string>
+    <string name="system_emulator_headline">Emulator</string>
 
     <!-- Device page -->
     <string name="device_brand_headline">Marca</string>
@@ -139,6 +149,8 @@
     <string name="hardware_gpu_category">GPU</string>
     <string name="hardware_gpu_vendor_headline">Fabricante</string>
     <string name="hardware_gpu_renderer_headline">Renderizador</string>
+    <string name="hardware_gpu_gl_version_headline">OpenGL ES version</string>
+    <string name="hardware_gpu_vulkan_version_headline">Vulkan version</string>
     <string name="hardware_gpu_current_frequency_headline">Frecuencia actual</string>
     <string name="hardware_gpu_minimum_frequency_headline">Frecuencia mínima</string>
     <string name="hardware_gpu_maximum_frequency_headline">Frecuencia máxima</string>
@@ -152,6 +164,7 @@
     <string name="memory_ram_available_headline">Disponibles</string>
     <string name="memory_ram_used_headline">En uso</string>
     <string name="memory_ram_usage_headline">Uso</string>
+    <string name="memory_ram_low_ram_headline">Low RAM</string>
     <string name="memory_storage_category">Almacenamiento interno</string>
     <string name="memory_storage_hardware_headline">Hardware</string>
     <string name="memory_storage_total_headline">Total</string>
