@@ -20,10 +20,10 @@
     <string name="generic_iec_terabytes"><xliff:g id="size" example="36">%s</xliff:g> TB</string>
     <string name="generic_iec_petabytes"><xliff:g id="size" example="36">%s</xliff:g> PB</string>
     <string name="generic_bytes_per_second"><xliff:g id="speed" example="36">%s</xliff:g> B/s</string>
-    <string name="generic_kb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> কিলোবাইট প্রতি সেকেন্ডে</string>
-    <string name="generic_mb_per_second"><xliff:g example="36" id="speed">%s</xliff:g>মেগাবাইট প্রতি সেকেন্ডে</string>
-    <string name="generic_gb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> গিগাবাইট প্রতি সেকেন্ডে</string>
-    <string name="generic_tb_per_second"><xliff:g example="36" id="speed">%s</xliff:g> টেরাবাইট প্রতি সেকেন্ডে</string>
+    <string name="generic_kb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> KB/s</string>
+    <string name="generic_mb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> MB/s</string>
+    <string name="generic_gb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> GB/s</string>
+    <string name="generic_tb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> TB/s</string>
     <string name="generic_pb_per_second"><xliff:g id="speed" example="36">%s</xliff:g> PB/s</string>
 
     <!-- Analytics consent -->
