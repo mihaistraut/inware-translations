@@ -125,6 +125,9 @@
     <string name="device_display_default_orientation_portrait">Vertikální</string>
     <string name="device_display_default_orientation_landscape">Horizontální</string>
     <string name="device_display_supports_hdr_headline">HDR</string>
+    <string name="device_display_adaptive_refresh_rate_headline">Adaptive refresh rate</string>
+    <string name="device_display_supported_refresh_rates_headline">Supported refresh rates (Hz)</string>
+    <string name="device_display_hdr_supported_with_ratio">Supported (<xliff:g id="ratio" example="2.5x">%s</xliff:g>)</string>
     <string name="device_features_category">Funkce</string>
     <string name="device_fingerprint_authentication_headline">Autentikace otiskem prstu</string>
     <string name="device_face_authentication_headline">Autentikace obličejem</string>
@@ -245,6 +248,8 @@
     <string name="connectivity_bluetooth_status_turning_off">Vypínaní</string>
     <string name="connectivity_bluetooth_permission_explainer">Without the Nearby devices permission, the app cannot display Bluetooth details.</string>
     <string name="connectivity_features_category">Features</string>
+    <string name="connectivity_ble_channel_sounding_headline">BLE channel sounding</string>
+    <string name="connectivity_thread_network_headline">Thread network</string>
 
     <!-- Battery page -->
     <string name="battery_health_headline">Zdraví</string>
