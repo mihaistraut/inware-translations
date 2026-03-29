@@ -63,8 +63,6 @@
     <string name="camera_page_description">Objectifs, mégapixels et stabilisation</string>
     <string name="sensors_page">Capteurs</string>
     <string name="sensors_page_description">Accéléromètre, lumière, proximité et plus</string>
-    <string name="network_page">Réseau</string>
-    <string name="network_page_description">État de la connexion, signal et vitesse</string>
     <string name="connectivity_page">Connectivité</string>
     <string name="connectivity_page_description">Bluetooth et appareils associés</string>
     <string name="battery_page">Batterie</string>
@@ -73,7 +71,9 @@
     <string name="media_drm_page_description">Fournisseur, version et niveau de sécurité</string>
 
     <!-- System page -->
-    <string name="system_os_category">SE</string>
+    <string name="system_android_category">Android</string>
+    <string name="system_build_category">Build</string>
+    <string name="system_status_category">Status</string>
     <string name="system_android_version_headline">Version d\'Android</string>
     <string name="system_released_with_headline">Sorti avec</string>
     <string name="system_min_target_sdk_headline">SDK cible minimal</string>
@@ -126,8 +126,11 @@
     <string name="device_display_default_orientation_landscape">Paysage</string>
     <string name="device_display_supports_hdr_headline">HDR</string>
     <string name="device_display_adaptive_refresh_rate_headline">Fréquence d\'actualisation adaptative</string>
-    <string name="device_display_supported_refresh_rates_headline">Fréquences d\'actualisation prises en charge (Hz)</string>
+    <string name="device_security_category">Security chip</string>
+    <string name="device_security_chip_manufacturer_headline">Manufacturer</string>
+    <string name="device_security_chip_model_headline">Model</string>
     <string name="device_display_hdr_supported_with_ratio">Pris en charge (<xliff:g id="ratio" example="2.5x">%s</xliff:g>)</string>
+    <string name="device_display_supported_refresh_rates_headline">Fréquences d\'actualisation prises en charge (Hz)</string>
     <string name="device_features_category">Fonctionnalités</string>
     <string name="device_fingerprint_authentication_headline">Authentication par empreinte digitale</string>
     <string name="device_face_authentication_headline">Authentication par reconnaissance faciale</string>
@@ -234,6 +237,7 @@
     <string name="network_signal_excellent">Excellente</string>
 
     <!-- Connectivity page -->
+    <string name="connectivity_network_category">Réseau</string>
     <string name="connectivity_bluetooth_category">Bluetooth</string>
     <string name="connectivity_bluetooth_name_headline">Nom</string>
     <string name="connectivity_bluetooth_status_headline">Statut</string>
@@ -248,8 +252,8 @@
     <string name="connectivity_bluetooth_status_turning_off">Désactivation</string>
     <string name="connectivity_bluetooth_permission_explainer">L\'autorisation \"Appareils à proximité\" est nécessaire pour pouvoir afficher certains détails lié au bluetooth.</string>
     <string name="connectivity_features_category">Fonctionnalités</string>
-    <string name="connectivity_ble_channel_sounding_headline">Sondage des canaux Bluetooth</string>
     <string name="connectivity_thread_network_headline">Réseau Thread</string>
+    <string name="connectivity_ble_channel_sounding_headline">Sondage des canaux Bluetooth</string>
 
     <!-- Battery page -->
     <string name="battery_health_headline">Santé</string>

@@ -63,8 +63,6 @@
     <string name="camera_page_description">Lenses, megapixels and stabilization</string>
     <string name="sensors_page">Sensors</string>
     <string name="sensors_page_description">Accelerometer, light, proximity and more</string>
-    <string name="network_page">Rrjeti</string>
-    <string name="network_page_description">Connection status, signal and speed</string>
     <string name="connectivity_page">Lidhja me rrjetin</string>
     <string name="connectivity_page_description">Bluetooth and paired devices</string>
     <string name="battery_page">Bateria</string>
@@ -73,7 +71,9 @@
     <string name="media_drm_page_description">Vendor, version and security level</string>
 
     <!-- System page -->
-    <string name="system_os_category">Sistemi i operimit</string>
+    <string name="system_android_category">Android</string>
+    <string name="system_build_category">Build</string>
+    <string name="system_status_category">Status</string>
     <string name="system_android_version_headline">Versioni Android</string>
     <string name="system_released_with_headline">I hedhur ne treg me</string>
     <string name="system_min_target_sdk_headline">Minimum target SDK</string>
@@ -126,8 +126,11 @@
     <string name="device_display_default_orientation_landscape">Per se gjeri</string>
     <string name="device_display_supports_hdr_headline">HDR</string>
     <string name="device_display_adaptive_refresh_rate_headline">Adaptive refresh rate</string>
-    <string name="device_display_supported_refresh_rates_headline">Supported refresh rates (Hz)</string>
+    <string name="device_security_category">Security chip</string>
+    <string name="device_security_chip_manufacturer_headline">Manufacturer</string>
+    <string name="device_security_chip_model_headline">Model</string>
     <string name="device_display_hdr_supported_with_ratio">Supported (<xliff:g id="ratio" example="2.5x">%s</xliff:g>)</string>
+    <string name="device_display_supported_refresh_rates_headline">Supported refresh rates (Hz)</string>
     <string name="device_features_category">Karakteristikat</string>
     <string name="device_fingerprint_authentication_headline">Njohje me shenje gishtash</string>
     <string name="device_face_authentication_headline">Njohje nepermjet fytyres</string>
@@ -234,6 +237,7 @@
     <string name="network_signal_excellent">E shkelqyer</string>
 
     <!-- Connectivity page -->
+    <string name="connectivity_network_category">Rrjeti</string>
     <string name="connectivity_bluetooth_category">Bluetooth</string>
     <string name="connectivity_bluetooth_name_headline">Emri</string>
     <string name="connectivity_bluetooth_status_headline">Statusi</string>
@@ -248,8 +252,8 @@
     <string name="connectivity_bluetooth_status_turning_off">Duke u çaktivizuar</string>
     <string name="connectivity_bluetooth_permission_explainer">Without the Nearby devices permission, the app cannot display Bluetooth details.</string>
     <string name="connectivity_features_category">Features</string>
-    <string name="connectivity_ble_channel_sounding_headline">Bluetooth channel sounding</string>
     <string name="connectivity_thread_network_headline">Thread network</string>
+    <string name="connectivity_ble_channel_sounding_headline">Bluetooth channel sounding</string>
 
     <!-- Battery page -->
     <string name="battery_health_headline">Gjendja</string>

@@ -63,8 +63,6 @@
     <string name="camera_page_description">Lenses, megapixels and stabilization</string>
     <string name="sensors_page">Sensors</string>
     <string name="sensors_page_description">Accelerometer, light, proximity and more</string>
-    <string name="network_page">網路</string>
-    <string name="network_page_description">Connection status, signal and speed</string>
     <string name="connectivity_page">連線</string>
     <string name="connectivity_page_description">Bluetooth and paired devices</string>
     <string name="battery_page">電池</string>
@@ -73,7 +71,9 @@
     <string name="media_drm_page_description">Vendor, version and security level</string>
 
     <!-- System page -->
-    <string name="system_os_category">系統</string>
+    <string name="system_android_category">Android</string>
+    <string name="system_build_category">Build</string>
+    <string name="system_status_category">Status</string>
     <string name="system_android_version_headline">Android 版本</string>
     <string name="system_released_with_headline">出廠版本</string>
     <string name="system_min_target_sdk_headline">最低目標 SDK</string>
@@ -126,8 +126,11 @@
     <string name="device_display_default_orientation_landscape">橫向</string>
     <string name="device_display_supports_hdr_headline">HDR</string>
     <string name="device_display_adaptive_refresh_rate_headline">Adaptive refresh rate</string>
-    <string name="device_display_supported_refresh_rates_headline">Supported refresh rates (Hz)</string>
+    <string name="device_security_category">Security chip</string>
+    <string name="device_security_chip_manufacturer_headline">Manufacturer</string>
+    <string name="device_security_chip_model_headline">Model</string>
     <string name="device_display_hdr_supported_with_ratio">Supported (<xliff:g id="ratio" example="2.5x">%s</xliff:g>)</string>
+    <string name="device_display_supported_refresh_rates_headline">Supported refresh rates (Hz)</string>
     <string name="device_features_category">功能</string>
     <string name="device_fingerprint_authentication_headline">指紋辨識</string>
     <string name="device_face_authentication_headline">臉部辨識</string>
@@ -234,6 +237,7 @@
     <string name="network_signal_excellent">極佳</string>
 
     <!-- Connectivity page -->
+    <string name="connectivity_network_category">網路</string>
     <string name="connectivity_bluetooth_category">藍牙</string>
     <string name="connectivity_bluetooth_name_headline">名稱</string>
     <string name="connectivity_bluetooth_status_headline">狀態</string>
@@ -248,8 +252,8 @@
     <string name="connectivity_bluetooth_status_turning_off">正在關閉</string>
     <string name="connectivity_bluetooth_permission_explainer">需要 \"鄰近裝置\" 權限才能顯示某些藍牙資訊。</string>
     <string name="connectivity_features_category">Features</string>
-    <string name="connectivity_ble_channel_sounding_headline">Bluetooth channel sounding</string>
     <string name="connectivity_thread_network_headline">Thread network</string>
+    <string name="connectivity_ble_channel_sounding_headline">Bluetooth channel sounding</string>
 
     <!-- Battery page -->
     <string name="battery_health_headline">健康</string>
